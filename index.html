@@ -1,0 +1,47 @@
+<!-- 
+  DESVIO.ART BY ALINE MARTINEZ – 2021 – ALINEMARTINEZ.IO
+  CODE BY WALIDVB.COM
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desvio</title>
+  <style>
+    *{
+      box-sizing: border-box;
+    }
+    html, body{
+      font-size: 18px;
+      display: grid;
+      place-content: center;
+      min-height: 100vh;
+      min-width: 100vw;
+      margin: 0;
+    }
+    body{
+      padding: 2rem;
+    }
+    .qr{
+      max-width: 100%;
+      max-height: 100%;
+      content: fill;
+    }
+    @media (max-width: 767px){
+      body{
+        align-content: start;
+      }
+      .qr{
+        margin-top: 2rem;
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <img src="./QR Desvio.svg" class="qr"/>
+</body>
+</html>
